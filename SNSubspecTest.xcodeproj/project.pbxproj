@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A8BEEBE20E32CDC003C106F /* SNSubspec1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8BEEBD20E32CDC003C106F /* SNSubspec1.m */; };
 		5AE743E920E23B36006F70C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743E820E23B36006F70C5 /* AppDelegate.m */; };
 		5AE743EC20E23B36006F70C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743EB20E23B36006F70C5 /* ViewController.m */; };
 		5AE743EF20E23B36006F70C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE743ED20E23B36006F70C5 /* Main.storyboard */; };
 		5AE743F120E23B36006F70C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE743F020E23B36006F70C5 /* Assets.xcassets */; };
 		5AE743F420E23B36006F70C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE743F220E23B36006F70C5 /* LaunchScreen.storyboard */; };
 		5AE743F720E23B36006F70C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743F620E23B36006F70C5 /* main.m */; };
-		5AE743FF20E23D1B006F70C5 /* SNSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743FE20E23D1B006F70C5 /* SNSpec.m */; };
-		5AE7440220E240B7006F70C5 /* SNClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7440120E240B7006F70C5 /* SNClass1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A8BEEBC20E32CDC003C106F /* SNSubspec1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNSubspec1.h; path = SNSpec/SNSubspec/SNSubspec1.h; sourceTree = SOURCE_ROOT; };
+		5A8BEEBD20E32CDC003C106F /* SNSubspec1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SNSubspec1.m; path = SNSpec/SNSubspec/SNSubspec1.m; sourceTree = SOURCE_ROOT; };
 		5AE743E420E23B36006F70C5 /* SNSubspecTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSubspecTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE743E720E23B36006F70C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE743E820E23B36006F70C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,10 +29,6 @@
 		5AE743F320E23B36006F70C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE743F520E23B36006F70C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE743F620E23B36006F70C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5AE743FD20E23D1B006F70C5 /* SNSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNSpec.h; path = SNSpec/SNSpec/SNSpec.h; sourceTree = SOURCE_ROOT; };
-		5AE743FE20E23D1B006F70C5 /* SNSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SNSpec.m; path = SNSpec/SNSpec/SNSpec.m; sourceTree = SOURCE_ROOT; };
-		5AE7440020E240B7006F70C5 /* SNClass1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNClass1.h; path = SNSpec/Classes/SNClass1.h; sourceTree = SOURCE_ROOT; };
-		5AE7440120E240B7006F70C5 /* SNClass1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SNClass1.m; path = SNSpec/Classes/SNClass1.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +70,8 @@
 				5AE743F220E23B36006F70C5 /* LaunchScreen.storyboard */,
 				5AE743F520E23B36006F70C5 /* Info.plist */,
 				5AE743F620E23B36006F70C5 /* main.m */,
-				5AE743FD20E23D1B006F70C5 /* SNSpec.h */,
-				5AE743FE20E23D1B006F70C5 /* SNSpec.m */,
-				5AE7440020E240B7006F70C5 /* SNClass1.h */,
-				5AE7440120E240B7006F70C5 /* SNClass1.m */,
+				5A8BEEBC20E32CDC003C106F /* SNSubspec1.h */,
+				5A8BEEBD20E32CDC003C106F /* SNSubspec1.m */,
 			);
 			path = SNSubspecTest;
 			sourceTree = "<group>";
@@ -151,11 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8BEEBE20E32CDC003C106F /* SNSubspec1.m in Sources */,
 				5AE743EC20E23B36006F70C5 /* ViewController.m in Sources */,
-				5AE7440220E240B7006F70C5 /* SNClass1.m in Sources */,
 				5AE743F720E23B36006F70C5 /* main.m in Sources */,
 				5AE743E920E23B36006F70C5 /* AppDelegate.m in Sources */,
-				5AE743FF20E23D1B006F70C5 /* SNSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

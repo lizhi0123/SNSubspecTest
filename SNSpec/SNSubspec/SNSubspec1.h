@@ -1,13 +1,13 @@
 //
-//  SNClass1.h
+//  SNSubspec1.h
 //  SNSubspecTest
 //
-//  Created by Sunny on 26/6/18.
+//  Created by Sunny on 27/6/18.
 //  Copyright © 2018年 Sunny. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SNClass1 : NSObject
+@interface SNSubspec1 : NSObject
 
 @end
