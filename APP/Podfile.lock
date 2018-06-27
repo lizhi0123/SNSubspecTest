@@ -1,0 +1,16 @@
+PODS:
+  - SNSpec/SNSubspec (1.0)
+
+DEPENDENCIES:
+  - SNSpec/SNSubspec (from `../`)
+
+EXTERNAL SOURCES:
+  SNSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SNSpec: 93145e1745010b1f33430a01c2c78af684018e36
+
+PODFILE CHECKSUM: 9fe3c1d0bbb7e97f6f77e5df9a3ae0fdf0954cc9
+
+COCOAPODS: 1.5.0

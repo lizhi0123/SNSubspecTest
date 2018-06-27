@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A8BEEBE20E32CDC003C106F /* SNSubspec1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8BEEBD20E32CDC003C106F /* SNSubspec1.m */; };
+		4948873EE7DEE189AD7FE4D7 /* libPods-SNSubspecTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2673A0589E5329DC2BD496 /* libPods-SNSubspecTest.a */; };
+		5A8BEEC120E36C1C003C106F /* SNDetialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8BEEC020E36C1C003C106F /* SNDetialPage.m */; };
 		5AE743E920E23B36006F70C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743E820E23B36006F70C5 /* AppDelegate.m */; };
 		5AE743EC20E23B36006F70C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743EB20E23B36006F70C5 /* ViewController.m */; };
 		5AE743EF20E23B36006F70C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE743ED20E23B36006F70C5 /* Main.storyboard */; };
@@ -17,8 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A8BEEBC20E32CDC003C106F /* SNSubspec1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNSubspec1.h; path = SNSpec/SNSubspec/SNSubspec1.h; sourceTree = SOURCE_ROOT; };
-		5A8BEEBD20E32CDC003C106F /* SNSubspec1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SNSubspec1.m; path = SNSpec/SNSubspec/SNSubspec1.m; sourceTree = SOURCE_ROOT; };
+		1F2673A0589E5329DC2BD496 /* libPods-SNSubspecTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSubspecTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8BEEBF20E36C1C003C106F /* SNDetialPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNDetialPage.h; path = ../SNSpec/SNDetialPage/SNDetialPage.h; sourceTree = "<group>"; };
+		5A8BEEC020E36C1C003C106F /* SNDetialPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SNDetialPage.m; path = ../SNSpec/SNDetialPage/SNDetialPage.m; sourceTree = "<group>"; };
 		5AE743E420E23B36006F70C5 /* SNSubspecTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSubspecTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE743E720E23B36006F70C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE743E820E23B36006F70C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +31,8 @@
 		5AE743F320E23B36006F70C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE743F520E23B36006F70C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE743F620E23B36006F70C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61C26C12085F98A61103004F /* Pods-SNSubspecTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSubspecTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSubspecTest/Pods-SNSubspecTest.release.xcconfig"; sourceTree = "<group>"; };
+		CB3F5EBBDD3C0A84E08AA19C /* Pods-SNSubspecTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSubspecTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSubspecTest/Pods-SNSubspecTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4948873EE7DEE189AD7FE4D7 /* libPods-SNSubspecTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		534A085076D1B8DB6BA0B0D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB3F5EBBDD3C0A84E08AA19C /* Pods-SNSubspecTest.debug.xcconfig */,
+				61C26C12085F98A61103004F /* Pods-SNSubspecTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5AE743DB20E23B36006F70C5 = {
 			isa = PBXGroup;
 			children = (
+				5A8BEEBF20E36C1C003C106F /* SNDetialPage.h */,
+				5A8BEEC020E36C1C003C106F /* SNDetialPage.m */,
 				5AE743E620E23B36006F70C5 /* SNSubspecTest */,
 				5AE743E520E23B36006F70C5 /* Products */,
+				534A085076D1B8DB6BA0B0D8 /* Pods */,
+				887EBA012FF3B1C4121F54E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,10 +88,16 @@
 				5AE743F220E23B36006F70C5 /* LaunchScreen.storyboard */,
 				5AE743F520E23B36006F70C5 /* Info.plist */,
 				5AE743F620E23B36006F70C5 /* main.m */,
-				5A8BEEBC20E32CDC003C106F /* SNSubspec1.h */,
-				5A8BEEBD20E32CDC003C106F /* SNSubspec1.m */,
 			);
 			path = SNSubspecTest;
+			sourceTree = "<group>";
+		};
+		887EBA012FF3B1C4121F54E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2673A0589E5329DC2BD496 /* libPods-SNSubspecTest.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AE743FA20E23B36006F70C5 /* Build configuration list for PBXNativeTarget "SNSubspecTest" */;
 			buildPhases = (
+				6BA864A0BD6438249FE17C97 /* [CP] Check Pods Manifest.lock */,
 				5AE743E020E23B36006F70C5 /* Sources */,
 				5AE743E120E23B36006F70C5 /* Frameworks */,
 				5AE743E220E23B36006F70C5 /* Resources */,
@@ -141,14 +166,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BA864A0BD6438249FE17C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNSubspecTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AE743E020E23B36006F70C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8BEEBE20E32CDC003C106F /* SNSubspec1.m in Sources */,
 				5AE743EC20E23B36006F70C5 /* ViewController.m in Sources */,
 				5AE743F720E23B36006F70C5 /* main.m in Sources */,
+				5A8BEEC120E36C1C003C106F /* SNDetialPage.m in Sources */,
 				5AE743E920E23B36006F70C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +333,7 @@
 		};
 		5AE743FB20E23B36006F70C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3F5EBBDD3C0A84E08AA19C /* Pods-SNSubspecTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +351,7 @@
 		};
 		5AE743FC20E23B36006F70C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C26C12085F98A61103004F /* Pods-SNSubspecTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
