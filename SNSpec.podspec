@@ -82,7 +82,10 @@ Pod::Spec.new do |s|
   #
 
   # s.source       = { :git => "http://EXAMPLE/SNSpec.git", :tag => "#{s.version}" }
-  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :tag => "#{s.version}" }
+  # s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :commit => "1895b22" }
+  
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +98,7 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-  s.source_files  = "SNSpec","SNSpec/**/*.{h,m}"
+  s.source_files  = "SNSpec/SNSpec.{h,m}"
   s.exclude_files = "SNSpec/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
