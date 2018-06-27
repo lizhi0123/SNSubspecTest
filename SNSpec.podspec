@@ -143,7 +143,7 @@ Pod::Spec.new do |s|
     # ss.ios.deployment_target = '9.0'
 
     # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-    ss.source_files = "SNSpec/SNSubspec","SNSpec/SNSubspec/**/*.{h,m}"
+    ss.source_files = 'SNSpec/SNSubspec/SNSubspec1.{h,m}'
     # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
 
     # ss.frameworks = 'SystemConfiguration'
