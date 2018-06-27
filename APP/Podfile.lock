@@ -1,16 +1,45 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - SNSpec/SNDetialPage (1.0)
   - SNSpec/SNSubspec (1.0)
 
 DEPENDENCIES:
-  - SNSpec/SNSubspec (from `../`)
+  - AFNetworking (~> 3.1.0)
+  - SNSpec/SNDetialPage (from `https://github.com/lizhi0123/SNSubspecTest.git`, branch `master`)
+  - SNSpec/SNSubspec (from `https://github.com/lizhi0123/SNSubspecTest.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   SNSpec:
-    :path: "../"
+    :branch: master
+    :git: https://github.com/lizhi0123/SNSubspecTest.git
+
+CHECKOUT OPTIONS:
+  SNSpec:
+    :commit: 012ac4d6c6287aa487dc9f3086cac0a044093d8c
+    :git: https://github.com/lizhi0123/SNSubspecTest.git
 
 SPEC CHECKSUMS:
-  SNSpec: 93145e1745010b1f33430a01c2c78af684018e36
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  SNSpec: 1db9923b7cd0e4f82241a8e7d6c6d9fe3a346da5
 
-PODFILE CHECKSUM: 9fe3c1d0bbb7e97f6f77e5df9a3ae0fdf0954cc9
+PODFILE CHECKSUM: 95d40dd6ee4be2a0d88ffc47f5a4bb8b382f757b
 
 COCOAPODS: 1.5.0

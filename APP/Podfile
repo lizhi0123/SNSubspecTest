@@ -6,6 +6,14 @@ target 'SNSubspecTest' do
   # use_frameworks!
 
   # Pods for SNSubspecTest
-   pod "SNSpec/SNSubspec", :path => "../"
+#   pod "SNSpec/SNSubspec", :path => "../"
+#   pod "SNSpec/SNDetialPage", :path => "../"
+
+   
+   pod 'SNSpec', :subspecs => ['SNSubspec', 'SNDetialPage'], :git => 'https://github.com/lizhi0123/SNSubspecTest.git', :branch => 'master'
+   
+   pod 'AFNetworking', '~> 3.1.0'
+
+   
 
 end
