@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source       = { :git => "http://EXAMPLE/SNSpec.git", :tag => "#{s.version}" }
-  s.source       = { :git => "https://github.com/lizhi0123/QKChineseVerifyCode.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/SNClass1.{h,m}"
+  s.source_files  = "Classes"
   s.exclude_files = "SNSpec/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
