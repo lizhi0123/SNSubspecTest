@@ -98,7 +98,8 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-  s.source_files  = "SNSpec/SNSpec.{h,m}"
+  s.source_files  = "SNSpec", "SNSpec/**/*.{h,m}"
+
   s.exclude_files = "SNSpec/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -146,7 +147,7 @@ Pod::Spec.new do |s|
     # ss.ios.deployment_target = '9.0'
 
     # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-    ss.source_files = 'SNSpec/SNSubspec1.{h,m}'
+    ss.source_files = 'SNSpec/SNSubspec/SNSubspec1.{h,m}'
     # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
 
     # ss.frameworks = 'SystemConfiguration'
