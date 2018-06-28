@@ -24,6 +24,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)btnDetialClick:(id)sender {
+    
+}
 
+- (IBAction)btnOrderClick:(id)sender {
+    
+}
 
 @end

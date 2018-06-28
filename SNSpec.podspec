@@ -20,8 +20,9 @@ Pod::Spec.new do |s|
  
   s.author             = { "Sunny" => "zhang_zhi_li@163.com" }
   
-  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :commit => "fac131c" }
-  
+#  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :commit => "eaf9c02" }
+ s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :branch => "master" }
+
 
   s.source_files  = "SNSpec", "SNSpec/SNSpec.{h,m}"
 
