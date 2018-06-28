@@ -1,0 +1,25 @@
+PODS:
+  - MGJRouter (0.9.3)
+  - SNSpec/SNDetialPage (1.0)
+  - SNSpec/SNSubspec (1.0)
+
+DEPENDENCIES:
+  - MGJRouter (~> 0.9.3)
+  - SNSpec/SNDetialPage (from `../`)
+  - SNSpec/SNSubspec (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MGJRouter
+
+EXTERNAL SOURCES:
+  SNSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  SNSpec: bf6c135f5a15b1ceb5c4f3803921d7efd685787b
+
+PODFILE CHECKSUM: b0aa38c08a199c8c83f6724f86069be9fab527b2
+
+COCOAPODS: 1.5.0

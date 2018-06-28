@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4948873EE7DEE189AD7FE4D7 /* libPods-SNSubspecTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2673A0589E5329DC2BD496 /* libPods-SNSubspecTest.a */; };
-		5A8BEEC120E36C1C003C106F /* SNDetialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8BEEC020E36C1C003C106F /* SNDetialPage.m */; };
 		5AE743E920E23B36006F70C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743E820E23B36006F70C5 /* AppDelegate.m */; };
 		5AE743EC20E23B36006F70C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE743EB20E23B36006F70C5 /* ViewController.m */; };
 		5AE743EF20E23B36006F70C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE743ED20E23B36006F70C5 /* Main.storyboard */; };
@@ -19,8 +18,6 @@
 
 /* Begin PBXFileReference section */
 		1F2673A0589E5329DC2BD496 /* libPods-SNSubspecTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSubspecTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A8BEEBF20E36C1C003C106F /* SNDetialPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNDetialPage.h; path = ../SNSpec/SNDetialPage/SNDetialPage.h; sourceTree = "<group>"; };
-		5A8BEEC020E36C1C003C106F /* SNDetialPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SNDetialPage.m; path = ../SNSpec/SNDetialPage/SNDetialPage.m; sourceTree = "<group>"; };
 		5AE743E420E23B36006F70C5 /* SNSubspecTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSubspecTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE743E720E23B36006F70C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE743E820E23B36006F70C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,8 +56,6 @@
 		5AE743DB20E23B36006F70C5 = {
 			isa = PBXGroup;
 			children = (
-				5A8BEEBF20E36C1C003C106F /* SNDetialPage.h */,
-				5A8BEEC020E36C1C003C106F /* SNDetialPage.m */,
 				5AE743E620E23B36006F70C5 /* SNSubspecTest */,
 				5AE743E520E23B36006F70C5 /* Products */,
 				534A085076D1B8DB6BA0B0D8 /* Pods */,
@@ -194,7 +189,6 @@
 			files = (
 				5AE743EC20E23B36006F70C5 /* ViewController.m in Sources */,
 				5AE743F720E23B36006F70C5 /* main.m in Sources */,
-				5A8BEEC120E36C1C003C106F /* SNDetialPage.m in Sources */,
 				5AE743E920E23B36006F70C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
