@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MGJRouter.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -30,6 +32,9 @@
 
 - (IBAction)btnOrderClick:(id)sender {
     
+    AppDelegate *app = (AppDelegate *)[UIApplication    sharedApplication].delegate;
+    app.navCtr = self.navigationController;
+    [MGJRouter openURL:@"sn://order"];
 }
 
 @end

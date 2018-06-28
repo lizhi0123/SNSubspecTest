@@ -6,12 +6,31 @@
 //
 
 #import "SNOrderController.h"
+#import "MGJRouter.h"
+#import "AppDelegate.h"
 
 @interface SNOrderController ()
 
 @end
 
 @implementation SNOrderController
+
++(void)load{
+    [MGJRouter registerURLPattern:@"sn://order" toHandler:^(NSDictionary *routerParameters) {
+        UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+        UINavigationController *nav = (UINavigationController *) [story instantiateInitialViewController];
+        
+        AppDelegate *app = (AppDelegate *)[UIApplication  sharedApplication].delegate;
+//        app.navCtr = self.navigationController;
+        nav = app.
+        
+        
+        SNOrderController *snOrderCtr = [[SNOrderController alloc] init];
+//        [nav pushViewController:snOrderCtr animated:YES];
+        
+    }];
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
