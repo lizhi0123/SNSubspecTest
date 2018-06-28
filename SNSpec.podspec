@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
  
   s.author             = { "Sunny" => "zhang_zhi_li@163.com" }
   
+  s.ios.deployment_target = '9.0'
+  
 #  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :commit => "eaf9c02" }
  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :branch => "master" }
 
@@ -53,6 +55,17 @@ Pod::Spec.new do |s|
     # ss.frameworks = 'SystemConfiguration'
     ss.dependency 'MGJRouter', '~> 0.9.3'
   end
+   
+   s.subspec 'SNOrderPage' do |ss|
+       # ss.ios.deployment_target = '9.0'
+       
+       # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
+       ss.source_files =  "SNSpec/SNOrderPage", "SNSpec/SNOrderPage/**/*.{h,m}"
+       # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
+       
+       # ss.frameworks = 'SystemConfiguration'
+       ss.dependency 'MGJRouter', '~> 0.9.3'
+   end
 
   
 
