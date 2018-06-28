@@ -7,7 +7,6 @@
 
 #import "SNOrderController.h"
 #import "MGJRouter.h"
-#import "AppDelegate.h"
 
 @interface SNOrderController ()
 
@@ -20,9 +19,7 @@
         UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
         UINavigationController *nav = (UINavigationController *) [story instantiateInitialViewController];
         
-        AppDelegate *app = (AppDelegate *)[UIApplication  sharedApplication].delegate;
 //        app.navCtr = self.navigationController;
-        nav = app.
         
         
         SNOrderController *snOrderCtr = [[SNOrderController alloc] init];
