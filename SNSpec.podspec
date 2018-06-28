@@ -34,16 +34,16 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-   s.subspec 'SNSubspec' do |ss|
-    # ss.ios.deployment_target = '9.0'
-
-    # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-    ss.source_files =  "SNSpec/SNSubspec", "SNSpec/SNSubspec/**/*.{h,m}"
-    # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
-
-    # ss.frameworks = 'SystemConfiguration'
-    ss.dependency 'MGJRouter', '~> 0.9.3'
-  end
+#   s.subspec 'SNSubspec' do |ss|
+#    # ss.ios.deployment_target = '9.0'
+#
+#    # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
+#    ss.source_files =  "SNSpec/SNSubspec", "SNSpec/SNSubspec/**/*.{h,m}"
+#    # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
+#
+#    # ss.frameworks = 'SystemConfiguration'
+#    ss.dependency 'MGJRouter', '~> 0.9.3'
+#  end
 
    s.subspec 'SNDetialPage' do |ss|
     # ss.ios.deployment_target = '9.0'
