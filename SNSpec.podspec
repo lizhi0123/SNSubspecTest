@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   
-  s.subspec 'MGJRouter+Nav' do |ss|
+  s.subspec 'MGJRouter_Nav' do |ss|
       # ss.ios.deployment_target = '9.0'
       
       # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
