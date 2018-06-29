@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
       # ss.ios.deployment_target = '9.0'
       
       # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-      ss.source_files =  "SNSpec/MGJRouter+Nav", "SNSpec/MGJRouter+Nav/**/*.{h,m}"
+      ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
       # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
       
       # ss.frameworks = 'SystemConfiguration'
