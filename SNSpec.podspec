@@ -30,9 +30,6 @@ Pod::Spec.new do |s|
 
   s.exclude_files = "SNSpec/Exclude"
 
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
   
   s.subspec 'MGJRouter_Nav' do |ss|
       # ss.ios.deployment_target = '9.0'
@@ -42,7 +39,7 @@ Pod::Spec.new do |s|
       # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
       
       # ss.frameworks = 'SystemConfiguration'
-#      ss.dependency 'MGJRouter', '~> 0.9.3'
+      ss.dependency 'MGJRouter', '~> 0.9.3'
   end
 
 

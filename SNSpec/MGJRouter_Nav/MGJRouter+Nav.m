@@ -48,16 +48,4 @@ static NSString *navControllerWithSetterGetterKey = @"navControllerWithSetterGet
 
 
 
-
-//@implementation Programmer (Category)
-//
-//- (void)setNameWithSetterGetter:(NSString *)nameWithSetterGetter {
-//    objc_setAssociatedObject(self, &nameWithSetterGetterKey, nameWithSetterGetter, OBJC_ASSOCIATION_COPY);
-//}
-//- (NSString *)nameWithSetterGetter {
-//    return objc_getAssociatedObject(self, &nameWithSetterGetterKey);
-//}
-
-
-
 @end

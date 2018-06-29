@@ -30,9 +30,20 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
     self.title = @"我的订单";
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(120, 300, 100, 60)];
+    btn.backgroundColor = [UIColor yellowColor];
+    [btn setTitle:@"商品详情" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    btn.titleLabel.textColor = [UIColor blackColor];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
     // Do any additional setup after loading the view.
 }
-
+-(void)btnClick{
+//    @"sn://detail"
+    [MGJRouter openURL:@"sn://detail"];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
