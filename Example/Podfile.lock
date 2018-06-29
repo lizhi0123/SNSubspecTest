@@ -3,9 +3,9 @@ PODS:
   - SNSpec/MGJRouter_Nav (1.0):
     - MGJRouter (~> 0.9.3)
   - SNSpec/SNDetialPage (1.0):
-    - MGJRouter (~> 0.9.3)
+    - SNSpec/MGJRouter_Nav
   - SNSpec/SNOrderPage (1.0):
-    - MGJRouter (~> 0.9.3)
+    - SNSpec/MGJRouter_Nav
 
 DEPENDENCIES:
   - MGJRouter (~> 0.9.3)
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
-  SNSpec: e244d7c8f26ca3c6203f3457ea50686636d45692
+  SNSpec: 275d222eab1750af99be18bcb617b11ab8a3d4f7
 
 PODFILE CHECKSUM: 548d34871411cd1ff9828bc746180e04dc4b7c81
 
