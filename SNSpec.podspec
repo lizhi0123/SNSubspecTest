@@ -25,51 +25,25 @@ Pod::Spec.new do |s|
 #  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :commit => "eaf9c02" }
  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :branch => "master" }
 
-
   s.source_files  = "SNSpec", "SNSpec/SNSpec.{h,m}"
 
   s.exclude_files = "SNSpec/Exclude"
-
   
   s.subspec 'MGJRouter_Nav' do |ss|
-      # ss.ios.deployment_target = '9.0'
-      
-      # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-      ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
-      # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
-      
-      # ss.frameworks = 'SystemConfiguration'
-      ss.dependency 'MGJRouter', '~> 0.9.3'
+     ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
+    ss.dependency 'MGJRouter', '~> 0.9.3'
   end
 
 
    s.subspec 'SNDetialPage' do |ss|
-    # ss.ios.deployment_target = '9.0'
-
-    # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
     ss.source_files =  "SNSpec/SNDetialPage", "SNSpec/SNDetialPage/**/*.{h,m}"
-    # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
-
-    # ss.frameworks = 'SystemConfiguration'
-#    ss.dependency 'MGJRouter', '~> 0.9.3'
-#    ss.dependency 'MGJRouter_Nav'
     ss.dependency 'SNSpec/MGJRouter_Nav'
 
   end
    
    s.subspec 'SNOrderPage' do |ss|
-       # ss.ios.deployment_target = '9.0'
-       
-       # ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
        ss.source_files =  "SNSpec/SNOrderPage", "SNSpec/SNOrderPage/**/*.{h,m}"
-       # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
-       
-       # ss.frameworks = 'SystemConfiguration'
-#       ss.dependency 'MGJRouter', '~> 0.9.3'
-#        ss.dependency 'MGJRouter_Nav',
        ss.dependency 'SNSpec/MGJRouter_Nav'
    end
-
-  
 
 end

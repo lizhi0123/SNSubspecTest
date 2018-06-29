@@ -8,8 +8,4 @@ target 'SNSubspecTest' do
 pod "SNSpec",:subspecs => ['SNOrderPage', 'SNDetialPage','MGJRouter_Nav'], :path => "../" #.表示同级；../ 表示上一级
 #   pod 'SNSpec', :subspecs => ['SNSubspec', 'SNDetialPage'], :git => 'https://github.com/lizhi0123/SNSubspecTest.git', :branch => 'master'
    
-   pod 'MGJRouter', '~> 0.9.3'
-
-   
-
 end

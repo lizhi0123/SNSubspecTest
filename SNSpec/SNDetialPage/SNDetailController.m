@@ -37,7 +37,10 @@
 }
 -(void)btnClick{
     //    @"sn://detail"
-    [MGJRouter openURL:@"sn://order"];
+//    [MGJRouter openURL:@"sn://order" ];
+    [MGJRouter openURL:@"sn://order" completion:^(id result) {
+        NSLog(@"result");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
