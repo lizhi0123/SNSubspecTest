@@ -54,7 +54,9 @@ Pod::Spec.new do |s|
     # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
 
     # ss.frameworks = 'SystemConfiguration'
-    ss.dependency 'MGJRouter', '~> 0.9.3'
+#    ss.dependency 'MGJRouter', '~> 0.9.3'
+    ss.dependency 'MGJRouter_Nav'
+
   end
    
    s.subspec 'SNOrderPage' do |ss|
@@ -65,7 +67,8 @@ Pod::Spec.new do |s|
        # ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
        
        # ss.frameworks = 'SystemConfiguration'
-       ss.dependency 'MGJRouter', '~> 0.9.3'
+#       ss.dependency 'MGJRouter', '~> 0.9.3'
+        ss.dependency 'MGJRouter_Nav'
    end
 
   
