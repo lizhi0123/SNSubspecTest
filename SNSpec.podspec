@@ -55,7 +55,8 @@ Pod::Spec.new do |s|
 
     # ss.frameworks = 'SystemConfiguration'
 #    ss.dependency 'MGJRouter', '~> 0.9.3'
-    ss.dependency 'MGJRouter_Nav'
+#    ss.dependency 'MGJRouter_Nav'
+    ss.dependency "SNSpec",:subspecs => ['MGJRouter_Nav'], :path => "../" #.表示同级；../ 表示上一级
 
   end
    
@@ -68,7 +69,8 @@ Pod::Spec.new do |s|
        
        # ss.frameworks = 'SystemConfiguration'
 #       ss.dependency 'MGJRouter', '~> 0.9.3'
-        ss.dependency 'MGJRouter_Nav'
+#        ss.dependency 'MGJRouter_Nav',
+    ss.dependency "SNSpec",:subspecs => ['MGJRouter_Nav'], :path => "../" #.表示同级；../ 表示上一级
    end
 
   
