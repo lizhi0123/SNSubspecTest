@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MGJRouter.h"
 #import "AppDelegate.h"
+#import "MGJRouter+Nav.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [MGJRouter setupNavController:self.navigationController];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,12 +30,14 @@
 }
 - (IBAction)btnDetialClick:(id)sender {
     
+    [MGJRouter openURL:@"sn://detail"];
 }
 
 - (IBAction)btnOrderClick:(id)sender {
     
-    AppDelegate *app = (AppDelegate *)[UIApplication    sharedApplication].delegate;
-    app.navCtr = self.navigationController;
+//    AppDelegate *app = (AppDelegate *)[UIApplication    sharedApplication].delegate;
+//    app.navCtr = self.navigationController;
+   
     [MGJRouter openURL:@"sn://order"];
 }
 

@@ -1,5 +1,7 @@
 PODS:
   - MGJRouter (0.9.3)
+  - SNSpec/MGJRouter_Nav (1.0):
+    - MGJRouter (~> 0.9.3)
   - SNSpec/SNDetialPage (1.0):
     - MGJRouter (~> 0.9.3)
   - SNSpec/SNOrderPage (1.0):
@@ -7,6 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - MGJRouter (~> 0.9.3)
+  - SNSpec/MGJRouter_Nav (from `../`)
   - SNSpec/SNDetialPage (from `../`)
   - SNSpec/SNOrderPage (from `../`)
 
@@ -20,8 +23,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
-  SNSpec: 41646a1b2c5815231f210938bb315c178ca8b9c6
+  SNSpec: e244d7c8f26ca3c6203f3457ea50686636d45692
 
-PODFILE CHECKSUM: d1f6ea20a4d35c6485cdf9d574c8dc06ec9d5969
+PODFILE CHECKSUM: 548d34871411cd1ff9828bc746180e04dc4b7c81
 
 COCOAPODS: 1.5.0

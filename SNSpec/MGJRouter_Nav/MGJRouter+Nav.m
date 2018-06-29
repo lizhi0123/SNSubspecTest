@@ -10,10 +10,36 @@
 
 static NSString *navControllerWithSetterGetterKey = @"navControllerWithSetterGetterKey";
 
+@interface MGJRouter ()
+
+@property(nonatomic,strong)UINavigationController *navController;
+
+@end
+
 @implementation MGJRouter (Nav)
 
+
++(void)setupNavController:(UINavigationController *)navController{
+  MGJRouter * rounterShare = (MGJRouter *)  [MGJRouter performSelector:NSSelectorFromString(@"sharedInstance")];
+    if([navController isKindOfClass:[UINavigationController class]]){
+        rounterShare.navController = navController ;
+    }else{
+        rounterShare.navController = nil;
+    }
+    
+}
+
++(UINavigationController *)navController{
+    MGJRouter * rounterShare = (MGJRouter *)  [MGJRouter performSelector:NSSelectorFromString(@"sharedInstance")];
+    UINavigationController * nav = rounterShare.navController ;
+    if([nav isKindOfClass:[UINavigationController class]]){
+        return  nav;
+    }
+    return  nil;
+}
+
 -(void)setNavController:(UINavigationController *)navController{
-     objc_setAssociatedObject(self, &navControllerWithSetterGetterKey, navControllerWithSetterGetterKey, OBJC_ASSOCIATION_RETAIN);
+     objc_setAssociatedObject(self, &navControllerWithSetterGetterKey, navController, OBJC_ASSOCIATION_RETAIN);
 }
 
 -(UINavigationController *)navController {

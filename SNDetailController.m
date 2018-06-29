@@ -1,35 +1,30 @@
 //
-//  SNOrderController.m
+//  SNDetailController.m
 //  MGJRouter
 //
-//  Created by Sunny on 28/6/18.
+//  Created by Sunny on 29/6/18.
 //
 
-#import "SNOrderController.h"
-#import "MGJRouter.h"
+#import "SNDetailController.h"
 #import "MGJRouter+Nav.h"
 
-@interface SNOrderController ()
+@interface SNDetailController ()
 
 @end
 
-@implementation SNOrderController
+@implementation SNDetailController
 
 +(void)load{
-    [MGJRouter registerURLPattern:@"sn://order" toHandler:^(NSDictionary *routerParameters) {
-        UINavigationController *nav = [MGJRouter navController];
-
-        SNOrderController *snOrderCtr = [[SNOrderController alloc] init];
-        [nav pushViewController:snOrderCtr animated:YES];
-        
+    [MGJRouter registerURLPattern:@"sn://detail" toHandler:^(NSDictionary *routerParameters) {
+        SNDetailController *detailCtr = [[SNDetailController alloc] init];
+        [[MGJRouter navController ] pushViewController:detailCtr animated:YES];
     }];
-    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor purpleColor];
-    self.title = @"我的订单";
+    self.view.backgroundColor = [UIColor orangeColor];
+    self.title = @"商品详情";
     // Do any additional setup after loading the view.
 }
 

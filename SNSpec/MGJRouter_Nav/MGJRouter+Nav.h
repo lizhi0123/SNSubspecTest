@@ -11,4 +11,8 @@
 
 @property(nonatomic,strong)UINavigationController *navController;
 
++(void)setupNavController:(UINavigationController *)navController;
+
++(UINavigationController *)navController;
+
 @end
